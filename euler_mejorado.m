@@ -10,7 +10,7 @@ y(1) = input('y(1): ');
 h = abs(x(n+1) - x(1)) / n;
 
 for i = [2:n]
-  x(i) = x(1) + (i+1)*h;
+  x(i) = x(1) + (i-1)*h;
 end
 
 for i = [1:n]
